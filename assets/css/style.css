@@ -168,10 +168,16 @@ img { border: 0; max-width: 100%; }
 
 .tl-body p, .tl-body ul {
   margin-bottom: 0;
+  color:#333;
+  text-align: justify;
 }
 
 .tl-body > p + p {
   margin-top: 5px;
+  -webkit-column-rule: #333;
+  -moz-column-rule: #333;
+  -o-column-rule: #333;
+  column-rule: #333;
 }
 
 /** media queries **/
@@ -227,3 +233,4 @@ img { border: 0; max-width: 100%; }
 body {
     color: white;
 }
+
