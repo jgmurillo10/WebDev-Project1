@@ -234,3 +234,66 @@ body {
     color: white;
 }
 
+/*icons about page*/
+
+.pull-left{
+	display: relative;
+	float:left;
+}
+.pull-right{
+	display: relative;
+	float:right;
+}
+.pull-center{
+	display: relative;
+}
+
+.icon-about{
+	display: table !important;
+	margin: 0 auto !important;
+}
+
+
+
+/*nganimate for views*/
+.animate-enter, 
+.animate-leave
+{ 
+    -webkit-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -moz-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -ms-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -o-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+} 
+ 
+.animate-enter {
+    left: 100%;
+}
+.animate-enter.animate-enter-active {
+    left: 0;
+}
+ 
+.animate-leave {
+    left: 0;
+}
+.animate-leave.animate-leave-active{
+    left: -100%;
+}
+
+/*footer list*/
+
+.footer-list{
+	/*display: relative;*/
+
+	float:right;
+}
+
+/*affix title*/
+.affix {
+      top: 0;
+      width: 100%;
+      padding-top: 70px;
+  }
+   .affix + .container-fluid {
+      
+  }

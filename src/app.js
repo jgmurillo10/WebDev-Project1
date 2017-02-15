@@ -4,7 +4,7 @@
 	'use strict';
 
 
-	angular.module('JuanMurilloApp', ['ui.router', 'ui.bootstrap'])
+	angular.module('JuanMurilloApp', ['ui.router', 'ui.bootstrap', 'ngAnimate'])
 	.controller('MainController', MainController)
 	.controller('TimelineController', TimelineController);
 
