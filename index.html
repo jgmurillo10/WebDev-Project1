@@ -75,13 +75,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a data-toggle="collapse" data-target="#navbar"  ui-sref="about">About</a>
+                        <a  data-toggle="collapse" data-target=".navbar-collapse"  ui-sref="about">About</a>
                     </li>
                     <li>
-                        <a data-toggle="collapse" data-target="#navbar"  ui-sref="projects">Projects</a>
+                        <a  data-toggle="collapse" data-target=".navbar-collapse"  ui-sref="projects">Projects</a>
                     </li>
                     <li>
-                        <a data-toggle="collapse" data-target="#navbar" ui-sref="contact">Contact</a>
+                        <a  data-toggle="collapse" data-target=".navbar-collapse" ui-sref="contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -94,7 +94,7 @@
 	<div ng-controller="MainController">
 			<!-- <h1>hola mundo</h1> -->
 			<div class="container" >
-				<ui-view ></ui-view>
+				<ui-view autoscroll="true"></ui-view>
 			</div>
 
 			
@@ -108,7 +108,7 @@
                 <div class="col-md-offset-1 col-md-10">
                 <br>
 
-                    <p style="float:left;">Made with love <i class="fa fa-fw fa-heart"></i> Juan Murillo 2017, Bogotá, CO <i class="fa fa-fw fa-map"></i></p>
+                    <p style="float:left;">Made with love <i class="fa fa-fw fa-heart"></i>Murillo 2017</p>
                     <ul class="list-inline footer-list">
                       <li>
                         <a href="https://github.com/jgmurillo10" target="_blank">
@@ -132,6 +132,7 @@
         </footer>
 
 	</div>
+
 
 
 </body>
